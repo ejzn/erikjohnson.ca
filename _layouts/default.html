@@ -1,5 +1,35 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Portfolio and work profile from Matthew Hurst, web designer and developer." />
+<meta name="keywords" content="web design, web development, online portfolio, previous works, matthew hurst, matthew j hurst, hurst, matthew" />
+<title>{{ page.title }}</title>
+<link href="{{ page.style }}" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie&subset=latin' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
 <body>
-  <h1>Hello World!</h1>
-  </body>
-  </html>
+
+<div class="container">
+	<div class="header">
+		<span id="site-logo">
+			<a href="http://erikjohnson.ca"><img src="../images/site_logo.gif"/></a>
+			<ul class="contact-main">
+				<li>Email: erikj54<code>@</code>gmail.com</li>
+				<li>Phone: 250 857 0898</li>
+			</ul>
+			</p>
+		</span>
+	</div>
+
+	<div class="main-content">
+	{{ content }}
+
+	</div>
+
+</div>
+</body>
+</html>

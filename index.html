@@ -1,3 +1,57 @@
 ---
 layout: default
+title : Erik Johnson - Web Design and Development
+style: css/main.css
 ---
+<script type="text/javascript">
+$(document).ready(function(){
+		$("#services").show();
+		$("#contact").hide();
+		$("#blog").hide();
+		
+		$('#services-button').click(function(){
+			$("#contact").hide();
+			$("#services").show();
+			$("#blog").hide()
+			});
+		$('#contact-button').click(function(){
+			$("#contact").show();
+			$("#services").hide();
+			$("#blog").hide()
+			});
+
+		});
+</script>
+
+<div class="stacked-links">
+	<ul id="links">
+		<a id="services-button" href="#"><li class="link" >Services</li></a>
+		<a id="blog-button" href="#"><li class="link" >Blog</li></a>
+		<a id="contact-button" href="#"><li class="link" >Contact</li></a>
+	</ul>
+
+</div>
+
+<div id="services" class="main">
+
+	<h2>Services</h2>
+	<p>I build simple small websites for small business and individuals. The focus is on quick clean design keeping to costs minimal.
+	</p>
+	<h3> Reasons to call me</h3>
+
+	<img class="check" src="images/check-mark.jpg"/><p>If you want a site built from the ground up for a reasonable price.
+	</p>
+	<img class="check" src="images/check-mark.jpg"/><p>If you would like help cleaning up an existing site or help migrating to a new system.
+	</p>
+	<img class="check" src="images/check-mark.jpg"/><p>You don't know where to start and need someone to talk to about the first steps in setting up a web presence.
+	</p>
+	<img class="check" src="images/check-mark.jpg"/> <p>You would like help with an internet application or some other harder problem to do with the web.
+	</p>
+</div>
+
+<div id="contact" class="main">
+	<h2>Contact</h2>
+	<p>The easiest way to reach me is by email: erikj54 At gmail.com, or by phone: 250 857 0898.</p>
+</div>
+
+

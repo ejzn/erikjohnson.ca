@@ -1,0 +1,94 @@
+/*
+ * Main.css : styling for main page
+ *				of erikjohnson.ca
+ */
+
+div.container
+	{
+		height:		400px;
+		width:		300px;
+		width:		1024px;
+		display:	block;
+		margin:		auto;
+		padding:	5px;
+		margin-top:	100px;
+	}
+div.main-content
+	{
+		height:300px;
+		width:780px;
+		padding:20px;
+		float:left;
+	}
+
+div.main
+	{
+		width:450px;
+		height:410px;
+		margin-left:50px;
+		margin-top:30px;
+		float:left;
+		padding:20px;
+	}
+
+h1, h2, h3, p 
+{
+	font-family: 'Josefin Sans';
+}
+img.check
+{
+	float:left;
+	width:30px;
+	margin-right:10px;
+}
+
+#site-logo
+	{
+		height:200px;
+		width:200px;
+		margin-top:100px;
+		float:left;
+	}
+#site-logo p	
+	{
+		padding:20px;
+		font-size:0.7em;
+		text-transform:uppercase;
+
+	}
+
+
+/* Main links */
+
+div.stacked-links
+	{
+		width:140px;
+		height:4500px;
+		float:left;
+		margin-left:40px;
+		margin-right:20px;
+		font-family: 'Josefin Sans';
+		font-size:  20px;
+
+	}
+li.link
+	{
+		display:block;
+		height:40px;
+		width:100px;
+		background:#aaa;
+		opacity:0.5;
+		filter:alpha(opacity=50);
+		margin-bottom:1px;
+		padding:20px;
+	}
+ul.contact-main
+{
+	width:300px;
+	font-family: 'Reenie Beanie';
+	font-size:25px;
+	list-style:none;
+	margin-top:-10px;
+	margin-left:-30px;
+}
+
