@@ -7,17 +7,14 @@ style: css/main.css
 $(document).ready(function(){
 		$("#services").show();
 		$("#contact").hide();
-		$("#blog").hide();
 		
 		$('#services-button').click(function(){
 			$("#contact").hide();
 			$("#services").show();
-			$("#blog").hide()
 			});
 		$('#contact-button').click(function(){
 			$("#contact").show();
 			$("#services").hide();
-			$("#blog").hide()
 			});
 
 		});
@@ -26,7 +23,7 @@ $(document).ready(function(){
 <div class="stacked-links">
 	<ul id="links">
 		<a id="services-button" href="#"><li class="link" >Services</li></a>
-		<a id="blog-button" href="#"><li class="link" >Blog</li></a>
+		<a href="http://erikj54.github.com" target=”_blank” ><li class="link" >Blog</li></a>
 		<a id="contact-button" href="#"><li class="link" >Contact</li></a>
 	</ul>
 
@@ -35,7 +32,7 @@ $(document).ready(function(){
 <div id="services" class="main">
 
 	<h2>Services</h2>
-	<p>I build simple small websites for small business and individuals. The focus is on quick clean design keeping to costs minimal.
+	<p>I build simple small websites for small business and individuals. The focus is on quick clean design keeping costs minimal.
 	</p>
 	<h3> Reasons to call me</h3>
 

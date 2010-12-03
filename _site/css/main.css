@@ -56,7 +56,9 @@ img.check
 		text-transform:uppercase;
 
 	}
-
+#site-logo a {
+	outline:none;
+}
 
 /* Main links */
 
