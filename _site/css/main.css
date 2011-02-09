@@ -3,10 +3,12 @@
  *				of erikjohnson.ca
  */
 
+body{
+ border-bottom:0px dashed #333;
+}
 div.container
 	{
 		height:		400px;
-		width:		300px;
 		width:		1024px;
 		display:	block;
 		margin:		auto;
@@ -65,7 +67,7 @@ img.check
 div.stacked-links
 	{
 		width:140px;
-		height:4500px;
+		height:450px;
 		float:left;
 		margin-left:40px;
 		margin-right:20px;
